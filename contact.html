@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <img src="https://source.unsplash.com/1200x400/?phone,contact" class="d-block w-100 mx-0" alt="...">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="w-50 m-auto">
+        <form action="userinfo.php" method="post">
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" name="user" placeholder="Enter Your Name">
+            </div>
+
+            <div class="form-group">
+                <label>Email address</label>
+                <input type="text" class="form-control" name="email" placeholder="Enter Your Eamil">
+            </div>
+
+            <div class="form-group">
+                <label>Phone Number</label>
+                <input type="text" class="form-control" name="mobile" placeholder="Enter Your Phone No">
+            </div>
+
+            <div class="form-group">
+                <label>Tell me about what you want to contact me for</label>
+                <textarea class="form-control" rows="3" name="comments"></textarea>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Submit</button>
+
+        </form>
+    </div>
+    </div>
+
+</body>
+
+</html>
